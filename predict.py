@@ -60,7 +60,7 @@ Misyonun; kullanıcılara karmaşık teknolojik ve gündelik problemleri en prat
 
 class Predictor(BasePredictor):
     def setup(self):
-        """Model L40S GPU'suna yükleniyor"""
+        """Model Replicate L40S GPU'suna çekiliyor"""
         model_path = hf_hub_download(
             repo_id="miracthedev/mis-ai", 
             filename="gemma-2-9b-it.Q4_K_M.gguf"
